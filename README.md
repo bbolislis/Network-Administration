@@ -1,5 +1,6 @@
 # Network Administration
 🖧 Welcome to my Network Administration Projects Repository!
+
 This repo contains my hands-on activities and labs about building, securing, and optimizing networks.
 
 My work includes:
