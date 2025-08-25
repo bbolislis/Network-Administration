@@ -1,28 +1,18 @@
-# Network Administration
-🖧 Welcome to my Network Administration Projects Repository!
+# 🖧 Network Administration Repository
 
-This repo contains my hands-on activities and labs about building, securing, and optimizing networks.
+Welcome to my Network Administration Repository!
+This repository is a collection of my labs, hands-on activities, and experiments in network administration. It is designed as a personal knowledge base and practice hub, documenting my step-by-step experiments, configurations, and results to strengthen real-world networking skills.
 
-My work includes:
+## 📌 What You’ll Find Here
 
-- Designing and maintaining LAN/WAN infrastructure
+This repo is organized to cover different aspects of network administration, including:
 
-- Implementing firewalls, VPNs, VLANs, and routing protocols
+- Routing & Switching Labs – OSPF, BGP, VLANs, static/dynamic routing
 
-- Monitoring network performance and troubleshooting issues
+- Security Configurations – Firewalls, ACLs, VPN setups, IDS/IPS
 
-- Exploring automation & scripting to simplify network tasks
+- Monitoring & Troubleshooting – Scripts, logs, and diagnostic exercises
 
-⚙️ Skills & Tools
+- Automation & Scripting – Python/Bash/PowerShell for routine network tasks
 
-Networking: TCP/IP, DHCP, DNS, VLANs, VPN, Subnetting
-
-Protocols: OSPF, BGP, EIGRP, RIP, STP
-
-Security: Firewall rules, IDS/IPS, VPN configurations, ACLs
-
-Monitoring Tools: Wireshark, Nagios, PRTG, Zabbix
-
-Automation & Scripting: Python, PowerShell, Bash
-
-Platforms: Cisco IOS, pfSense, Mikrotik, Linux
+- Documentation & Diagrams – Network topologies, step-by-step guides
