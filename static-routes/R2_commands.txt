@@ -1,0 +1,5 @@
+enable
+configure terminal
+no ip route 192.168.3.0 255.255.255.0
+ip route 192.168.3.0 255.255.255.0 192.168.13.3
+exit

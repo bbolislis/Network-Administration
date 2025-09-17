@@ -1,0 +1,5 @@
+enable
+configure terminal
+interface gigabitEthernet 0/0/0
+ip address 192.168.13.3 255.255.255.0
+exit
