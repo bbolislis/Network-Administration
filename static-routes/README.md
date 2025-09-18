@@ -81,3 +81,7 @@ Issue the following command on PC2 to verify connectivity to PC1:
 ![Ping](https://github.com/bbolislis/Network-Administration/blob/main/static-routes/img/ping_test_final.png)
 
 The ping is successful, indicating that the static routes are working correctly.
+
+---
+
+*Credits to [Jeremy's IT Lab](https://www.jeremysitlab.com/) for the packet tracer file.*
