@@ -155,3 +155,5 @@ To check the routing configuration:
 ![VLAN Mapping](img/r1-route.png)
 
 ___
+
+*Credits to [Jeremy's IT Lab](https://www.jeremysitlab.com/) for the packet tracer file.*
