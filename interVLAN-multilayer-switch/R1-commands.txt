@@ -1,0 +1,9 @@
+en
+conf t
+no int g0/0.10
+no int g0/0.20
+no int g0/0.30
+default int g0/0
+int g0/0
+ip add 10.0.0.194 255.255.255.252
+exit
