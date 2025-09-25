@@ -1,0 +1,13 @@
+enable
+configure terminal
+interface range f0/1-2
+switchport mode access
+switchport access vlan 10
+interface range f0/3-4
+switchport mode access
+switchport access vlan 30
+interface g0/1
+switchport mode trunk
+switchport trunk allowed vlan 10,30
+switchport trunk native vlan 1001
+exit
