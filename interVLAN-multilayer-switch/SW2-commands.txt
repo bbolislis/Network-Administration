@@ -4,6 +4,7 @@ default int g1/0/2
 ip routing
 int g1/0/2
 no switchport
+ip add 10.0.0.193 255.255.255.252
 ip route 0.0.0.0 0.0.0.0 10.0.0.194
 int vlan 10
 ip add 10.0.0.62 255.255.255.252
