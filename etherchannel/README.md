@@ -3,17 +3,14 @@ It is a technology that allows multiple physical links to be combined into a sin
 
 In this repository, we will explore the concept of EtherChannel and its implementation on Cisco IOS.
 
----
 
 ## Topology
 
 ![Topology](img/topology.png)
 
----
 
 ## Implementation
 
----
 
 ### Access Switch 1 (ASW1) Configuration
 
@@ -66,7 +63,6 @@ load-balance src-dst-ip
 
 ![EtherChannel Status](img/asw1_loadbalance.png)
 
----
 
 ### Access Switch 2 (ASW2) Configuration
 
@@ -105,7 +101,6 @@ interface port-channel 1
 load-balance src-dst-ip
 ```
 
----
 
 ### Distribution Switch 1 (DSW1) Configuration
 
@@ -162,7 +157,6 @@ show etherchannel summary
 
 ![EtherChannel Status](img/dsw1_etherchannel2.png)
 
----
 
 ### Distribution Switch 2 (DSW2) Configuration
 
@@ -219,7 +213,6 @@ show etherchannel summary
 
 ![EtherChannel Status](img/dsw2_etherchannel2.png)
 
----
 
 ## Network Routing
 
@@ -259,7 +252,6 @@ ip route 172.16.1.0 255.255.255.252 10.0.0.1
 
 ![DSW2 Static Route](img/dsw2_ip_route2.png)
 
----
 
 ## Conclusion
 
