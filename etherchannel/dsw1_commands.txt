@@ -1,0 +1,16 @@
+en
+conf t
+int ra g1/0/3-4
+channel-group 1 mode active
+int port-channel 1
+switchport mode trunk
+int ra g1/0/1-2
+channel-group 2 mode on
+int port-channel 2
+no switchport
+ip add 10.0.0.1 255.255.255.252
+exit
+port-channel load-balance src-dst-ip
+ip routing
+ip route 172.16.2.0 255.255.255.0 10.0.0.2
+exit

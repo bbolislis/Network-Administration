@@ -1,0 +1,9 @@
+en
+conf t
+int ra g0/1-2
+channel-group 1 mode active
+int port-channel 1
+switchport mode trunk
+exit
+port-channel load-balance src-dst-ip
+exit
